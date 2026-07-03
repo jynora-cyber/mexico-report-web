@@ -42,7 +42,6 @@ table{width:100%;border-collapse:collapse;margin:12px 0;border-radius:12px;overf
   <div class="meta"><span class="pill">样本：12 位用户</span><span class="pill">方式：墨西哥本地线下面访</span><span class="pill">用途：产品 / 运营 / 投放 / 放还款 / 信用卡机会参考</span></div>
 </header>
 <main>
-  <div class="notice"><b>重要修正：</b>本轮样本以优质客户、已使用金融产品用户为主，银行卡/信用卡覆盖度偏高。因此“现有样本更偏好银行卡/SPEI”不能推导为“线下/OXXO 不推进”。OXXO/线下放还款应作为无卡、低银行化潜在用户的专项验证方向。</div>
 
   <section>
     <h2>一、事实提炼：高频共性与需要谨慎解读的差异</h2>
@@ -277,7 +276,6 @@ table{width:100%;border-collapse:collapse;margin:12px 0;border-radius:12px;overf
 
   <section>
     <h2>五、行为洞察与行动项（可编辑 / 可评论）</h2>
-    <div class="notice"><b>使用说明：</b>下方行动项支持增改删和评论，默认保存在当前浏览器 LocalStorage。若后续部署到公开网站并希望“不同访客评论互相可见”，需要接入 Supabase / Firebase / 后端数据库；本 HTML 已提供导出/导入 JSON，方便临时收集和同步。</div>
     <div class="action-toolbar"><button class="primary" onclick="addAction()">新增行动项</button><button class="btn secondary" onclick="exportData()">导出当前编辑 JSON</button><button class="btn secondary" onclick="document.getElementById('importFile').click()">导入 JSON</button><input type="file" id="importFile" accept="application/json" style="display:none" onchange="importData(event)"></div>
     <div id="actionList" class="action-list"></div>
   </section>
